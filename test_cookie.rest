@@ -1,0 +1,7 @@
+
+###
+POST  http://localhost:5080/api/cookie-test/successCookie
+Cookie:TestCookieToken=jhegj34t783dfjfjd487378346587jfdjfjv
+###
+POST  http://localhost:5080/api/cookie-test/failCookie
+Cookie:TestCookieToken=jhegj34t783dfjfjd487378346587jfdjfjv

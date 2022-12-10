@@ -1,0 +1,8 @@
+### without cros origin : OK
+POST  http://localhost:5080/api/cros-test/getNow
+###
+POST  http://localhost:5080/api/cros-test/getNow
+Origin: www.microsoft.com
+###
+POST  http://localhost:5080/api/cros-test/getNowCustomOrigin
+Origin: www.microsoft.com
